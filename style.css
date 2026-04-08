@@ -547,7 +547,7 @@ section {
 .about-img-block {
   background: var(--charcoal);
   border-radius: 12px;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 3 / 4;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -883,7 +883,7 @@ footer {
   .why-grid { grid-template-columns: 1fr; }
   .why-visual { display: none; }
   .about-grid { grid-template-columns: 1fr; }
-  .about-img-block { aspect-ratio: 16 / 7; }
+  .about-img-block { aspect-ratio: 3 / 4; }
   .contact-grid { grid-template-columns: 1fr; }
 }
 
