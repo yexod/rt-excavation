@@ -539,7 +539,7 @@ section {
    ============================================ */
 .about-grid {
   display: grid;
-  grid-template-columns: 1fr 1.1fr;
+  grid-template-columns: 0.55fr 1.45fr;
   gap: 72px;
   align-items: center;
 }
