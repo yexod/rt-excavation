@@ -181,6 +181,12 @@ Open the live site and check:
 5. Netlify auto-publishes within 30 seconds
 6. Add the new URL to `sitemap.xml`
 
+Workflow for updatingblog/index.html when you add a new post:
+
+- Write the article HTML in blog/
+- In blog/index.html, paste a new card at the top of the list
+- In index.html, replace the bottom card with the new one (so the homepage always shows the 3 most recent)
+
 ### To add a photo to the About section:
 1. Compress the photo at **squoosh.app** (saves loading time)
 2. Upload it to the `assets/` folder in GitHub
@@ -188,6 +194,7 @@ Open the live site and check:
 
 ### To update phone number, hours, or copy:
 Open `index.html` in a text editor, use Find & Replace (Ctrl+H or Cmd+H) to locate and update the text, then re-upload to GitHub.
+
 
 ---
 

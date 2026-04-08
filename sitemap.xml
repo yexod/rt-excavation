@@ -9,13 +9,26 @@
   </url>
 
   <!-- Add blog posts here as they're published. Example: -->
-  <!--
   <url>
     <loc>https://rtdigs.com/blog/underground-water-leak-signs.html</loc>
-    <lastmod>2025-01-01</lastmod>
+    <lastmod>2026-06-07</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
-  -->
+
+ <url>
+    <loc>https://rtdigs.com/blog/what-does-a-grading-contractor-do.html</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+   <url>
+    <loc>https://rtdigs.com/blog/questions-to-ask-excavation-company-utah.html</loc>
+    <lastmod>2026-06-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 
 </urlset>
