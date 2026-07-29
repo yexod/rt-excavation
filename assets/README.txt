@@ -10,7 +10,7 @@ Place the following files here before launch:
 
 2. logo.png
    - Transparent background
-   - Used in the Schema markup
+   - Used in the Schema markup, but
    - Ideal size: 400 x 200px or similar
 
 3. tyler-rashelle.jpg (or similar)
@@ -18,9 +18,7 @@ Place the following files here before launch:
    - Used in the About section
    - Replace the placeholder div in index.html with:
      <img src="assets/tyler-rashelle.jpg"
-          alt="Tyler Reid, owner and operator of RT Excavation LLC in Smithfield, Utah"
-          width="800" height="600"
-          loading="lazy">
+          alt="Tyler
 
 4. favicon.ico / favicon.png
    - Small icon that appears in browser tabs
@@ -29,3 +27,13 @@ Place the following files here before launch:
 
 NOTE: All images should be compressed before uploading.
       Free tool: https://squoosh.app
+
+
+AFTER LAUNCH
+===============
+Every time a blog is posted, be sure to
+
+
+Colors should follow color/brand guide. Make any CSS updates if updating colors.
+
+Undo any large
