@@ -36,4 +36,6 @@ Every time a blog is posted, be sure to
 
 Colors should follow color/brand guide. Make any CSS updates if updating colors.
 
-Undo any large
+Undo and recommit any large 
+
+File guide: `~/Users/brighamdoxey/Gun/`

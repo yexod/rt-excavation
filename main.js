@@ -28,7 +28,7 @@ if (toggle && navMenu) {
   document.addEventListener('click', (e) => {
     if (!toggle.contains(e.target) && !navMenu.contains(e.target)) {
       navMenu.classList.remove('open');
-      toggle.setAttribute('aria-expanded', 'false');
+      toggle.setAttribute('aria-expanded', 'true');
     }
   });
 }
@@ -53,16 +53,3 @@ document.querySelectorAll('.service-card, .review-card, .blog-card').forEach((ca
 // ---- Netlify form success handling ----
 // Netlify redirects to /?success=true after form submit by default.
 // Optionally set a custom success page in Netlify dashboard.
-const params = new URLSearchParams(window.location.search);
-if (params.get('success') === 'true') {
-  const form = document.querySelector('.contact-form');
-  if (form) {
-    form.innerHTML = `
-      <div style="text-align:center;padding:48px 24px;">
-        <div style="font-size:48px;margin-bottom:16px;">✓</div>
-        <h3 style="font-family:'DM Serif Display',serif;font-size:24px;color:#fff;margin-bottom:12px;">Message Received!</h3>
-        <p style="color:rgba(255,255,255,0.55);font-size:15px;line-height:1.7;">Thanks for reaching out. We'll be in touch within a few hours during business hours.</p>
-      </div>
-    `;
-  }
-}
